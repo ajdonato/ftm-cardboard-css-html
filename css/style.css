@@ -14,19 +14,14 @@ html{
     --stat-headings: hsla(0, 0%, 100%, 0.6);
 
     font-size: 62.5%;
-
-    /*
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-    */
 }
 
 body{
     font-size: 1.5rem;
-    width: 144rem;
-    height: 100vh;
 
     margin: 0 auto;
+    width: 144rem;
+    height: 100vh;
 
     background: var(--main-background);
 
@@ -50,7 +45,6 @@ main{
     padding: 7rem 6rem 6rem 6rem;
 
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Lexend Deca', sans-serif; */
 }
 
 .card-text .violet-clr{
@@ -59,19 +53,17 @@ main{
 
 .card-text .h1-card{
     color: var(--main-heading);
+    font-size: 3.5rem;
 
     padding-bottom: 3rem;
-
-    font-size: 3.5rem;
 }
 
 .card-text .p-card{
     color: var(--main-paragraph);
     font-weight: 400;
+    line-height: 2.5rem;
 
     padding-right: 5rem;
-
-    line-height: 2.5rem;
 }
 
 footer{
@@ -111,17 +103,19 @@ footer ul p{
     width: 50%;
 }
 
-.card-img{
+.card-img,
+.card-img2{
     width: 50%;
 
-    background: url(images/image-header-desktop.jpg) center no-repeat;
+    background: url(../images/image-header-desktop.jpg) top no-repeat;
     background-size: cover;
 
     border-radius: 0 1rem 1rem 0;
     position: relative;
 }
 
-.card-img::before {
+.card-img::before,
+.card-img2::before {
     background: var(--soft-violet-card);
     content: '';
     position: absolute;
