@@ -132,9 +132,12 @@ footer ul p{
     padding-top: 5rem;
 }
 
+.attribution a{
+    text-decoration: none;
+}
+
 .attribution a:visited{
     color: var(--soft-violet-accent);
-    text-decoration: none;
 }
 
 
