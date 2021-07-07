@@ -27,6 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 main{
@@ -122,6 +123,18 @@ footer ul p{
     bottom: 0;
 
     border-radius: 0 1rem 1rem 0;
+}
+
+.attribution{
+    color: var(--main-heading);
+    font-family: 'Inter', sans-serif;
+
+    padding-top: 5rem;
+}
+
+.attribution a:visited{
+    color: var(--soft-violet-accent);
+    text-decoration: none;
 }
 
 
