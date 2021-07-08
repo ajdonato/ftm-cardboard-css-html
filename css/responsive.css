@@ -89,4 +89,10 @@
         justify-content: center;
         grid-template-columns: 1fr;
     }
+
+    .attribution {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
